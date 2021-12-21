@@ -1,0 +1,31 @@
+{
+    "name": "suma/volume-discount",
+    "description": "A Laravel Nova field to manage/store volume discount data.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "volume discount",
+        "bulk discount"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Suma\\VolumeDiscount\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Suma\\VolumeDiscount\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
