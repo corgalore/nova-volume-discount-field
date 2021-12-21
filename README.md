@@ -8,18 +8,24 @@ Add/remove rows of discount levels and optionally columns of discount tiers. Sav
 
  - Designed for Nova v3.x
  
- ### Installation
+### Installation
  
- For now install by cloning the repo and linking in your composer.json file.
+For now install by cloning the repo and linking in your composer.json file.
  
- ### Examples
+### Examples
  
- ![Alt Rows and Tiers](/docs/example-01.jpg?raw=true "Example 01")
+##### Example 01 - Multiple price break rows and session length tiers
+  
+![Rows and Tiers](/docs/example-01.jpg?raw=true "Example 01")
  
- <br/>
+<br/>
  
- ![Alt Showing a single tier](/docs/example-02.jpg?raw=true "Example 02")
+##### Example 02 - A single tier with 2 price break levels
+  
+![Showing a single tier](/docs/example-02.jpg?raw=true "Example 02")
  
- <br/>
- 
- ![Alt Showing a single tier](/docs/data-01.jpg?raw=true "The JSON data stored by the field")
+<br/>
+
+##### Data 01 - The JSON data stored by the field
+
+![The field value](/docs/data-01.jpg?raw=true "The JSON data stored by the field")
