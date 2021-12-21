@@ -29,3 +29,18 @@ For now install by cloning the repo and linking in your composer.json file.
 ##### Data 01 - The JSON data stored by the field
 
 ![The field value](/docs/data-01.jpg?raw=true "The JSON data stored by the field")
+
+<br/>
+
+### Usage
+
+```php
+public function fields( Request $request ) {
+    return [
+        VolumeDiscount::make('Volume Discounts')
+            ->qtyColumnHeading('Qty')
+            ->discountColumnHeading('Tier')
+            ->maxTiers(4)
+    ];
+}
+```
